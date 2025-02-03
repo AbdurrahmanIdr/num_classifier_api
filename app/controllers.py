@@ -27,7 +27,7 @@ def classify(number):
     try:
         number = int(number)
 
-        properties = get_number_properties(number)
+        properties = get_number_properties(abs(number))
         fun_fact = fetch_fun_fact(number)
 
         return jsonify({
