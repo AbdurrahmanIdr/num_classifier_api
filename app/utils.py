@@ -5,3 +5,5 @@ def fetch_fun_fact(number):
     if response.status_code == 200:
         return response.json().get("text", "No fact available")
     return "No fact available"
+
+
