@@ -56,7 +56,7 @@ A simple Flask-based API that classifies a given number based on its mathematica
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/number-classification-api.git
+git clone https://github.com/AbdurrahmanIdr/num_classifier_api.git
 cd number-classification-api
 ```
 
@@ -138,9 +138,7 @@ This project is open-source and available under the **MIT License**.
 
 ## **Contact**  
 
-📧 Email: [your-email@example.com](mailto:your-email@example.com)  
-🐙 GitHub: [your-github-profile](https://github.com/yourusername)  
+📧 Email: [abdurrahmaneedrees@gmail.com](mailto:abdurrahmaneedrees@gmail.com)  
+🐙 GitHub: [AIAlmeida](https://github.com/AbdurrahmanIdr)  
 
 ---
-
-This README provides a **clear**, **progressive**, and **developer-friendly** guide. Let me know if you'd like any tweaks! 🚀
