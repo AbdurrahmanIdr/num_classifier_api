@@ -1,6 +1,6 @@
-from flask import Blueprint, request, jsonify
-from app.controllers import classify
+from flask import Blueprint, request
 
+from app.controllers import classify
 
 main_bp = Blueprint('main', __name__)
 
