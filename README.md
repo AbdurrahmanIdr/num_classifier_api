@@ -83,18 +83,16 @@ The API will be available at `http://127.0.0.1:5000/api/classify-number?number=3
 ## **Project Structure**  
 
 ```
-number_classification_api/
+num_classifier_api/
 │── app/
 │   │── __init__.py         # Initializes Flask app
 │   │── routes.py           # Defines API routes
 │   │── controllers.py      # Handles request logic
 │   │── services.py         # Business logic for number classification
 │   │── utils.py            # Utility/helper functions
-│   │── models.py           # Data models (if needed)
 │── tests/
 │   │── test_api.py         # Unit tests for the API
 │── requirements.txt        # Dependencies (Flask, requests, etc.)
-│── config.py               # Configuration settings
 │── run.py                  # Entry point to run the app
 │── README.md               # Project documentation
 │── .gitignore              # Files to ignore in version control
