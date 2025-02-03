@@ -9,7 +9,7 @@ from app import create_app
 
 
 @pytest.fixture
-def client():
+def test_client():
     """Set up a test client for the Flask app."""
     app = create_app()
     app.config["TESTING"] = True
