@@ -2,7 +2,7 @@
 This module contains the route definitions for the Flask application.
 """
 
-from flask import Blueprint, request
+from flask import Blueprint, request, jsonify
 from app.controllers import classify
 
 main_bp = Blueprint('main', __name__)
@@ -20,4 +20,8 @@ def classify_number():
         Response: The result of the classify function.
     """
     number = request.args.get('number')
+
+    if number is None:
+        return jsonify({"number": "alphabet", "error": True}), 400
+
     return classify(number)
