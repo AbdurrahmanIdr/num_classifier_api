@@ -1,9 +1,29 @@
+"""
+This module contains the controller functions for the Flask application.
+
+It includes functions to classify numbers and return their properties along with a fun fact.
+"""
+
 from flask import jsonify
 from app.services import get_number_properties
 from app.utils import fetch_fun_fact
 
-
 def classify(number):
+    """
+    Classify a given number and return its properties and a fun fact.
+
+    This function takes a number as input, determines its properties
+    (such as whether it is prime or perfect), calculates the digit sum,
+    and fetches a fun fact about the number. The results are returned
+    as a JSON response.
+
+    Args:
+        number (str): The number to classify.
+
+    Returns:
+        Response: A Flask JSON response containing the number's properties
+                  and a fun fact, or an error message if the input is invalid.
+    """
     try:
         number = int(number)
 
